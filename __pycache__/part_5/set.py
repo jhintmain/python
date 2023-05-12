@@ -1,9 +1,9 @@
-# set{} : 중복 x, 순서x
+# set : {} : 중복 x, 순서x
 my_set = {1,2,3,4,4,4}
 print(my_set)
 
-java = {"우재석","홍길동","김산아"}
-python = set(["우재석","박명수"])
+java = {"우재석","홍길동","김산아"} # set
+python = set(["우재석","박명수"]) # list to set
 
 # 교집합
 print(java & python)
