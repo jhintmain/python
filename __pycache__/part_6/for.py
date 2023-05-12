@@ -19,11 +19,25 @@
 #     person = input("이름이 어떻게 되세요?")
     
 
+absent = [2,5]
+nobook = [7]
+student = range(1,11)
 
-students = [1,2,3,4,5];
-students = [i+100 for i in students]
-print(students)
+for student in range(1,11):
+    if student in absent :
+        continue
+    elif student in nobook:
+        print("{}번 끝나고 교무실로 따라와".format(student))
+        break
+    else:
+        print("{}번 책을 읽는다".format(student))
 
-students = ["Iron man", "Thor", "I am groot"]
-students = [i.upper() for i in students];
-print(students)
+
+
+# students = [1,2,3,4,5]
+# students = [i+100 for i in students]
+# print(students)
+
+# students = ["Iron man", "Thor", "I am groot"]
+# students = [i.upper() for i in students]
+# print(students)
