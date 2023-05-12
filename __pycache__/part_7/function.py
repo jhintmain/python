@@ -25,7 +25,7 @@ commission , balance = withdraw_night(balance,500)
 print("수수료는 {}원이며 잔액은{}원 입니다".format(commission,balance))
 
 
-def profile(name,age, *language):
+def profile(name,age=25, *language):        # 배열은 *로 표시할 수 있다
     print("이름 :{}\t나이:{}\t".format(name,age),end =" ")
     for lang in language:
         print(lang, end =" ")
