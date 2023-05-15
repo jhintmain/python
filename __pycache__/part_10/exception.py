@@ -13,7 +13,7 @@ except Exception as err:
     print("알 수 없는 에러")
 
 
-1
+
 # 사용자 정의 에러
 class BigNumberError(Exception):
     def __init__(self,msg):
