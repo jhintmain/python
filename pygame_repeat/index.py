@@ -21,10 +21,12 @@ colock = pygame.time.Clock()
 # 이미지 경로
 # current_path = os.path.dirname(__file__)
 # image_path = os.path.join(current_path,"images")
-image_path = "C:/Users/user/OneDrive/바탕 화면/PythonWorkspace/images"
+# image_path = "C:/Users/user/OneDrive/바탕 화면/PythonWorkspace/images"
 
+image_path = os.path.join(os.curdir,"images")
 # 배경화면
 background = pygame.image.load(os.path.join(image_path,"background.png"))
+
 
 # 캐릭터
 character = pygame.image.load(os.path.join(image_path,"character.png"))
