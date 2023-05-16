@@ -59,6 +59,14 @@ while running:
 
     for event in pygame.event.get():    # 이벤트 발생 종류
         if event.type == pygame.QUIT:   # 이벤트 종류 : 종료
+            running = False             # 게임 진행중 아님으로 변running = True
+while running:
+    dt = clock.tick(30) # 초당 프레임수
+
+    # print("fps:"+str(clock.get_fps()))
+
+    for event in pygame.event.get():    # 이벤트 발생 종류
+        if event.type == pygame.QUIT:   # 이벤트 종류 : 종료
             running = False             # 게임 진행중 아님으로 변경
 
         if event.type == pygame.KEYDOWN:
