@@ -32,7 +32,7 @@ average = total/len(A)
 print(average)
 
 
-# Q6.
+# Q6. 홀수에만 2 곱해서 list로 만들기
 numbers = [1,2,3,4,5]
 result = []
 for n in numbers : 

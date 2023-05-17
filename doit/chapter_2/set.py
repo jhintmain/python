@@ -43,4 +43,4 @@ print(s1) # {1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 # a.remove(x) : x값 제거
 s1.remove(8)
-print(s1)
+print(s1) # {1, 2, 3, 4, 5, 6, 7, 9}

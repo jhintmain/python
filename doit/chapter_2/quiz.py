@@ -50,9 +50,12 @@ print("Q8. (1,2,3) 튜플에 값 4를 추가하여 (1,2,3,4)를 만들어보자"
 # print(tuple(q8_tuple))
 q8_tuple = (1,2,3)
 q8_tuple = q8_tuple + (4,)
+
+
 # Q9. a = dict() 라고할때 오류가 발생하는 코드는?
 print("Q9. a = dict() 라고할때 오류가 발생하는 코드는?")
-# 2번 a[('a',)] = 'python'
+# 3번 a[[1]] = 'python' > why? 딕셔너리의 key는 immutable값이 여야 한다. [1]은 list로 변하는 값
+
 
 # Q10. a = {'A':90,'B':80,'C':70} 일때 result 값
 print("Q10. a = {'A':90,'B':80,'C':70} 일때 result 값")

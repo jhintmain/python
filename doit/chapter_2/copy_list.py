@@ -30,6 +30,6 @@ b = '5'
 print(a+"_"+str(id(a))) # 3
 print(b+"_"+str(id(b))) # 5
 
-a,b = b,a
+a,b = b,a # id 자체가 바뀜
 print(a+"_"+str(id(a))) # 5
 print(b+"_"+str(id(b))) # 3
