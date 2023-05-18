@@ -73,4 +73,4 @@ job = "탐정"
 print(f"내이름은 {name}! {job}이죠!")
 
 d = {'name':name, 'job':job}
-print(f"내이름은 {d['name']:<10}! {d['job']}이죠!")
+print(f"내이름은 {d['name']}! {d['job']}이죠!")
